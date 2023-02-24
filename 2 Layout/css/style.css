@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-box{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #C6CBCD;
+    padding-left: 100px;
+    width: 1200px;
+}
+.text-button{
+    width: 570px;
+}
+.tabs{
+    display: flex;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+}
+.text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    
+
+    color: #000000;
+}   
+.main-text{
+    display: flex;
+    align-items: center;
+    height: 124px;
+    margin-bottom: 27px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    
+
+    color: #000000;
+}
+.tab-2 , .tab-3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    width: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs{
+    text-transform: uppercase;
+    margin-bottom: -1px;
+}
+.tab-main{
+    display: flex;
+    justify-content: center;
+    background: white;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    align-items: center;
+    border-radius: 15px 15px 0px 0;
+    width: 201px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.img{
+    display: block;
+}
+
+.button-download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 54px;
+    margin-top: 27px;
+    width: 270px;
+    height: 58px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+    background: #EC7979;
+}
+.text-button{
+    margin-right: 30px;
+}
